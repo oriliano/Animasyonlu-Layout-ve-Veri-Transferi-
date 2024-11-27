@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/input1stRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter 1st Rate"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/input2ndRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter 2nd Rate"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/inputClan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Clan Name"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+</LinearLayout>

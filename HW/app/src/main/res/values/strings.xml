@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YourAppName</string>
+    <string name="app_title">KILL RATE</string>
+    <string name="enter_first_rate">Enter your first kill rate</string>
+    <string name="enter_second_rate">Enter your second kill rate</string>
+    <string name="enter_team_name">Enter your  name</string>
+    <string name="select_gender">Select your clan</string>
+
+    <string name="result">Result</string>
+</resources>

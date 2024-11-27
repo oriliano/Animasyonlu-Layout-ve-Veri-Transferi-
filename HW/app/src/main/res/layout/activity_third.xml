@@ -1,0 +1,28 @@
+<!-- activity_third.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Players will be displayed here"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/Editbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Players" />
+
+    <Button
+        android:id="@+id/dialogBut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back" />
+</LinearLayout>
